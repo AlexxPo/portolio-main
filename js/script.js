@@ -1,5 +1,6 @@
 const tabButtons = document.querySelectorAll(".design-list__item");
 const tabTitles = document.querySelectorAll(".design__title");
+document.title = "Портфолио";
 
 const changeContent = (arrayClass, value) => {
   const className = document.querySelectorAll(arrayClass);
